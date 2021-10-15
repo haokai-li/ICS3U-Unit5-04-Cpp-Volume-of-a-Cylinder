@@ -25,6 +25,11 @@ main() {
     float userHeightNumber;
     float volumeCylinder;
 
+    std::cout << "This Program calculates the volume of a cylinder."
+    << std::endl;
+    std::cout << "YPlease enter the radius and height." << std::endl;
+    std::cout << "" << std::endl;
+
     // input
     std::cout << "Please enter the radius of a cylinder(cm): ";
     std::cin >> userRadiusString;
